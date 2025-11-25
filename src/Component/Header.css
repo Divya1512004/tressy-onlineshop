@@ -1,7 +1,7 @@
  .header {
   width: 100%;
   background: #ffffff;
-  padding: 10px 0;
+  /* padding: 10px 0; */
   position: sticky;
   top: 0;
   z-index: 50;
@@ -148,17 +148,17 @@
   .header {
   width: 100%;
   } 
-  
+
   .head-contents {
     flex-direction: column;       
-    gap: 12px;
+    gap: 8px;
     padding: 10px 0;
   }
  
   .navlinks {
     width: 100%;
     justify-content: center;
-    gap: 13px;
+    gap: 8px;
     overflow-x: auto;
     white-space: nowrap;
   }
