@@ -3,14 +3,14 @@ import './Home.css'
 import HomeSection from './HomeSection'
 import Section from './Section'
 function Home() {
+ 
   return (
     <div className='home'>
         <div className="home-image">
-          {/* <h1>WELCOME TO OUR TRESSY🛍️👗</h1>
-              <p>Discover The Latest Trends And Styles With Us!</p>
-              <p>Find Trendy, Classy And Comfy Styles All In One Place.🤩💃🛒</p>
-              <p>Shop Your Favorites, AnyTime, AnyWhere With Just a Tap💗🌸👜</p>
-            <h2>YOUR PERFECT DRESS IS WAITING - START YOUR STYLISH JOURNEY NOW!👚👠👒</ h2> */}
+           <h1>WELCOME TO OUR TRESSY🛍️👗</h1>
+            <p>Step into a world of fashion where elegance meets comfort effortlessly.Find outfits that match your mood, style, and every special moment.
+Start your stylish journey today and let your wardrobe shine with confidence!👚👠👒</p>
+            
         </div>
         <div className="section">
             <Section />
@@ -23,3 +23,4 @@ function Home() {
 }
 
 export default Home
+

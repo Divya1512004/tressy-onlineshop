@@ -1,6 +1,6 @@
 .home-image {
   width: 100%;
-  height: 110vh;
+  height: 100vh;
 
   background-image: url("/photos/bg4.png"); 
   background-size: cover;
@@ -37,8 +37,7 @@
 }
 
 .home-image h2 {
-  margin-top: 10%;
-  /* margin-bottom: 10; */
+  margin-top: 10%; margin-bottom: 10; 
   margin-left: 10%;
   font-size: 28px;
   font-weight: 800;
@@ -52,17 +51,15 @@
     height: 40vh;
     /* padding: 20px; */
     text-align: center;
-    /* gap: 5px; */
   }
 
-  /* .home-image h1 {
+  .home-image h1 {
     font-size: 14px;
-    margin-top: 20px;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
   }
 
   .home-image p {
-    font-size: 8px;
+    font-size: 14px;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
   }
 
@@ -70,7 +67,7 @@
     margin-bottom: 10px;
     font-size: 14px;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
-  } */
+  }
 }
 
 
