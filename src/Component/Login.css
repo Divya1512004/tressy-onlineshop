@@ -1,0 +1,126 @@
+.login-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.login-model {
+  width: 360px;
+  background: #fff;
+  padding: 30px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  position: relative;
+  animation: popup 0.25s ease;
+}
+
+@keyframes popup {
+  from { transform: scale(0.85); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.close-login {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #444;
+    z-index: 1000;
+}
+
+.close-login:hover {
+  color: red;
+}
+
+.login-model h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.box1, .box2 {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.login-model input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.login-model button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  background: #007bff;       
+  border: none;
+  color: white;
+  font-size: 17px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.login-model button:hover {
+  background: #005ec2;      
+}
+
+.msg {
+  text-align: center;
+  margin-top: 8px;
+  color: green;
+  font-size: 14px;
+}
+
+.error {
+  text-align: center;
+  margin-top: 8px;
+  color: #e60000;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .login-model {
+    width: 90%;                
+    padding: 20px 20px;       
+    border-radius: 10px;
+  }
+
+  .login-model h1 {
+    font-size: 22px;           
+    margin-bottom: 15px;
+  }
+
+  .login-model input {
+    padding: 8px;             
+    font-size: 14px;
+  }
+
+  .login-model button {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .close-login {
+    right: 15px;
+    top: 12px;
+    font-size: 22px;
+  }
+
+  .msg, .error {
+    font-size: 13px;
+  }
+}
+
+

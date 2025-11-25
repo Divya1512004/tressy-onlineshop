@@ -1,0 +1,125 @@
+.buy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9ff, #f0f5ff);
+  font-family: 'Poppins', sans-serif;
+  padding: 40px 20px;
+}
+
+.buy-heading h1 {
+  /* font-size: 16px; */
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.buy-details {
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buy-product {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.buy-product h3 {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.buy-product h4 {
+  color: #0066cc;
+  font-weight: 600;
+}
+
+.buy-product img {
+  border-radius: 10px;
+  margin: 10px 0;
+  transition: transform 0.3s ease;
+}
+
+.buy-product img:hover {
+  transform: scale(1.05);
+}
+
+.buy-details input {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 8px 0;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.buy-details input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+.buy-details button {
+  width: 100%;
+  padding: 12px 0;
+  background: linear-gradient(90deg, #007bff, #00bfff);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.buy-details button:hover {
+  background: linear-gradient(90deg, #0056b3, #0099cc);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,123,255,0.3);
+}
+
+.buy-details p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.buy-details p[style] {
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+
+  .buy {
+    padding: 20px 25px;
+    min-height: auto;
+  }
+
+  .buy-heading h1 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .buy-details {
+    padding: 20px;
+    max-width: 100%;        
+    border-radius: 15px;
+  }
+
+  .buy-product img {
+    width: 100%;
+    max-width: 220px;      
+  }
+}
