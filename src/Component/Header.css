@@ -145,17 +145,22 @@
 
 @media (max-width: 480px) {
 
+  .header {
+  width: 100%;
+  } 
+  
   .head-contents {
     flex-direction: column;       
     gap: 12px;
     padding: 10px 0;
   }
-
  
   .navlinks {
     width: 100%;
     justify-content: center;
-    gap: 15px;
+    gap: 13px;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 
   .navlinks a {
@@ -164,12 +169,13 @@
 
   .search {
     width: 100%;
+    max-width: 350px;
     display: flex;
     justify-content:center;
   }
 
   .search input {
-    width: 90%;
+    width: 100%;
     font-size: 14px;
   }
 

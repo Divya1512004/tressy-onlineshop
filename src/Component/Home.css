@@ -18,11 +18,11 @@
 }
 
 .home-image h1 {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 800;
   color: #0c0c0c;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
-  margin-left:40% ;
+  margin-left:40%;
   margin-bottom: 35px;
 }
 
@@ -33,7 +33,7 @@
   margin: 2px 0;
   margin-left: 40%;
   margin-top: 25px;
-  text-shadow: 1px 1px 6px rgba(0,0,0,0.4);
+  text-shadow: 1px 1px 6px rgba(32, 26, 26, 0.4);
 }
 
 .home-image h2 {
@@ -56,23 +56,24 @@
   }
 
   .home-image h1 {
-    font-size: 16px;
-    margin-left: 25%;
-    margin-bottom: 20px;
+    font-size: 14px;
+    margin-left: 33%;
+    /* margin-bottom: 20px; */
+    /* margin-top: 20px; */
     text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
   }
 
   .home-image p {
-    font-size: 13px;
-    margin-left: 22%;
-    margin-top: 5%;
+    font-size: 8px;
+    margin-left: 35%;
+    /* margin-top: 5%; */
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
   }
 
   .home-image h2 {
-    margin-top: 40px;
-    margin-left: 0;
-    font-size: 16px;
+    /* margin-top: 50px; */
+    /* margin-left: 0; */
+    font-size: 14px;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
   }
 }
