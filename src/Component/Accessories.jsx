@@ -1,5 +1,5 @@
 import React from 'react'
-import './Accessories.css'
+import './accessories.css'
 import {Link} from 'react-router-dom'
 function Accessories() {
   return (
