@@ -1,6 +1,6 @@
 import axios from 'axios'
 import {Link} from 'react-router-dom'
-import {useState,useEffect, useContext} from 'react'
+import {useState,useEffect} from 'react'
 import Cards from './Cards.jsx'
 function MakeUp() {
     const [makeUp,setMakeUp]=useState([]);
