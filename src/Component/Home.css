@@ -49,13 +49,13 @@
 @media (max-width: 480px) {
   .home-image {
     width:100%;
-    height: 35vh;
+    height: 40vh;
     /* padding: 20px; */
     text-align: center;
     /* gap: 5px; */
   }
 
-  .home-image h1 {
+  /* .home-image h1 {
     font-size: 14px;
     margin-top: 20px;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
@@ -70,7 +70,7 @@
     margin-bottom: 10px;
     font-size: 14px;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
-  }
+  } */
 }
 
 
