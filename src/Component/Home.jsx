@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className='home'>
         <div className="home-image">
-            <h1>WELCOME TO OUR TRESSY🛍️👗</h1>
+          <h1>WELCOME TO OUR TRESSY🛍️👗</h1>
               <p>Discover The Latest Trends And Styles With Us!</p>
               <p>Find Trendy, Classy And Comfy Styles All In One Place.🤩💃🛒</p>
               <p>Shop Your Favorites, AnyTime, AnyWhere With Just a Tap💗🌸👜</p>
