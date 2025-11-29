@@ -137,11 +137,10 @@
     text-decoration: none !important;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 
     .head-contents {
         flex-direction: column;
-        /* align-items: flex-start; */
         align-items: center;
         gap: 10px;
         padding: 10px 15px;
@@ -151,11 +150,10 @@
         width: 65px;
     }
 
-    /* NAV LINKS visible – arranged row or wrap */
     .navlinks {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;        /* allows 2nd line */
+        flex-wrap: wrap;        
         justify-content: center;
         gap: 10px;
         margin-top: 5px;
@@ -166,7 +164,6 @@
         margin: 0;
     }
 
-    /* Search bar full width */
     .search {
         width: 90%;
         margin-top: 6px;
@@ -178,21 +175,98 @@
         padding: 10px 40px 10px 15px;
     }
 
-    /* Dropdown fix for mobile */
     .dropdown {
         width: 90%;
         left: 50%;
-        top: 180px;    /* positions below search */
+        top: 180px;    
         transform: translateX(-50%);
     }
 
-    /* Navbar icons under navlinks */
     .navbar {
         width: 100%;
         display: flex;
         justify-content: center;
         gap: 25px;
         margin-top: 5px;
+    }
+
+    .navbar i {
+        font-size: 22px;
+    }
+} */
+
+
+@media (max-width: 480px) {
+
+    /* Header container */
+    .head-contents {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 15px;
+    }
+
+    /* Logo */
+    .logo img {
+        width: 65px;
+    }
+
+    /* NAV LINKS → Single Row Only */
+    .navlinks {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap !important;   /* ❗ No wrapping → single line */
+        overflow-x: auto;               /* scroll if needed */
+        justify-content: center;
+        gap: 15px;
+        margin-top: 5px;
+        white-space: nowrap;            /* ❗ Prevent double line */
+    }
+
+    .navlinks a {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    /* Search bar full width */
+    .search {
+        width: 90%;
+        margin-top: 6px;
+        position: relative;
+    }
+
+    .search input {
+        width: 83%;
+        font-size: 14px;
+        padding: 10px 40px 10px 15px;
+    }
+    .dropdown {
+        width: 90%;
+        left: 50%;
+        top: 250px;    
+        transform: translateX(-50%);
+    }
+
+
+    /* .dropdown {
+        position: absolute;
+        top: 48px;       
+        left: 0;
+        width: 100%;
+        background: white;
+        border-radius: 10px;
+        max-height: 300px;
+        overflow-y: auto;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        z-index: 2000;   
+    } */
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 8px;
     }
 
     .navbar i {
